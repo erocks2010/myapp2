@@ -1,0 +1,161 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/assets/images/ladhak_main.jpg');
+    background-size: cover;
+    color: #C70039;
+}
+
+#name
+{
+    font-size:1em;
+    color:blue;
+}
+
+table ,tr,td
+{
+    /*border:1px solid black;*/ 
+}
+
+input
+{
+    border-radius: .2em;
+}
+
+form label
+{
+    font-weight: bold;
+    
+}
+
+form legend
+{
+    font-weight: bold;
+    
+}
+
+.header-main-fixed
+{
+    display:block;
+    position: fixed;
+    background:rgba(256,256,256,.5);
+    height: 3em;
+    /*border:5px solid blue;*/
+    width: 100%;
+    margin:-.5em 0 0 -.5em;
+}
+
+.header-main-fixed-nav-bar-li
+{
+    display: inline-block;
+    margin:0 1em 0 0;
+}
+
+.header-main-fixed-nav-bar-li>a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.6em;
+    font-style: oblique;
+    color:#C70039;
+      
+}
+
+.header-main-fixed-nav-bar
+{
+    /*border:2px solid green;*/
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+.login-credential-content
+{
+    display:inline;
+    position: absolute;
+    /*background-color: yellow;*/
+    /*border:5px solid blue;*/
+    margin:8em 0 0 0;
+    background:rgba(0,0,0,.8)
+ }
+ 
+
+.header-main-fixed-circle
+{
+    opacity: .99;
+}
+.header-main-fixed-figure
+{
+    position: -ms-page;
+    display:block;
+    width:auto;
+    height: 4em;
+    opacity: .5;
+    /*border:5px solid brown;*/
+    margin-top: 3em;
+}
+
+.div1
+{
+    height: 50px;
+    width:100%;
+    background-color: red;
+    display: block;
+    position: fixed;
+}
+
+.div2
+{
+    height:1900px;
+    width: 100%;
+    background-color: green;
+    display: block;
+    position: -ms-page;
+}
+
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+ 
+button#facebook {
+    border-color: #2d5073;
+    background-color: #3b5998;
+    background-image: url(http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png);
+}
+
+div.social-wrap.b button {
+    padding-right: 45px;
+    height: 35px;
+    background: none;
+    border: none;
+    display: block;
+    background-size: 25px 25px, cover;
+    background-position: 170px center, center center;
+    background-repeat: no-repeat, repeat;
+    border-radius: 4px;
+    color: white;
+    font-family:"Merriweather Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    width: 205px;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    box-shadow: 0 4px 2px -2px gray;
+    text-shadow: rgba(0, 0, 0, .4) -1px -1px 0;
+}
+
+div.social-wrap.b > .facebook {
+    background: url(http://dl.dropbox.com/u/109135764/facebookf.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4c74c4), color-stop(100%, #3b5998));
+    background-size: 25px 25px, cover;
+    background-position: 170px center, center center;
+    background-repeat: no-repeat, repeat;
+}
+
+div.social-wrap.b button em {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family:"Times New Roman";
+    margin-right: 4px;
+    margin-left: 4px;
+}

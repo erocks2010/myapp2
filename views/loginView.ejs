@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="default-style" content="/assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/assets/system/sessionCookie.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+    
+    <div class="header-main-fixed">
+        <nav class="header-main-fixed-nav-bar">
+            <ul>
+                <li class="header-main-fixed-nav-bar-li" title="Go To Home Screen"><a data-subject="Blue" accesskey="h" href='/main'>Home</a></li>
+                <li class="header-main-fixed-nav-bar-li" data-subject="Blue" title="View Product Offerings"><a accesskey="p" href="/product">Products</a></li>
+                <li class="header-main-fixed-nav-bar-li" data-subject="Blue" title="View Company Management"><a accesskey="m" href='/management'>Management</a></li>
+                <li class="header-main-fixed-nav-bar-li" data-subject="Blue" title="Check if you could build your career with us"><a accesskey="C" href='/career'>Careers</a></li>
+                <li class="header-main-fixed-nav-bar-li" data-subject="Blue" title="About the background of the Company"><a accesskey="A" href="/about">About</a></li>
+            </ul>
+        </nav>
+        <svg class="header-main-fixed-figure" xmlns="http://www.w3.org/2000/svg">
+                    <circle class="header-main-fixed-circle" cx="10em" cy="-3em" r="7em" fill="white"/>
+                </svg>
+    </div>
+
+    <form action="loginPage" method="POST" novalidate autocomplete="on" accept-charset="UTF-8" oninput="o.value=parseInt(start.value)">
+        <fieldset class="login-credential-content">
+            <legend>
+                <h2>Please login to continue</h2></legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="username">Username</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" id="username" placeholder="Enter username" autofocus required/>
+                        </td>
+                        <td style="width:5em">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="Enter password" required/>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="area">Area</label>
+                        </td>
+                        <td>
+                            <input name="area" list="area" style="width:9em" placeholder="Select Your Area" required/>
+                            <datalist id="area">
+                                    <option value="Pune"/>
+                                    <option value="Hyderabad"/>
+                                    <option value="Banglore"/>
+                                    <option value="NCR"/>
+                                    </datalist>
+
+                            <label for="range">Within 0</label>
+
+                            <input type="range" name="start" id="start" value="5" min="0" max="50" />
+
+                            <label for="range">50 Km</label>
+                        </td>
+                        <td>
+                            <output for="start" id="o"></output> KM<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input class="social-wrap b" type="submit" value="Submit" />
+                        </td>
+                        <td>
+                            <div class="social-wrap b">
+                                <button class="facebook">Sign in <em>w/</em> Facebook</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

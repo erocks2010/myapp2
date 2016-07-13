@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" char.set="utf-8">
+        <!--<meta http-equiv="refresh" content="5" charset="utf8">-->
+        <title>
+            Ethan Hunt Technologies Ltd.
+        </title>
+        <link rel="stylesheet" type="text/css" href="/assets/style.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        
+        <header role="banner" data-subject="greeting">
+            <h2>Welcome Dear User <span id="name"><%= firstname %> <%= lastname %> </span></h2>
+            <h2><%= area%></h2>
+            <h4>Please feel free to explore the offerings of Ethan Hunt Technologie Ltd.</h4>
+        </header>
+        
+        <nav>
+            <ul>
+                <li  title="Go To Home Screen"><a data-subject="Blue" accesskey="h" href='/main'>Home</a></li>
+                <li data-subject="Blue" title="View Product Offerings"><a accesskey="p" href="/product">Products</a></li>
+                <li data-subject="Blue" title="View Company Management"><a accesskey="m" href='/management' >Management</a></li>
+                <li data-subject="Blue" title="Check if you could build your career with us"><a accesskey="C" href='/career'>Careers</a></li>
+                <li data-subject="Blue" title="About the background of the Company"><a accesskey="A" href="/about">About</a></li>
+            </ul>
+        </nav>
+        
+        <article>
+            <section class="Intro">
+                <h3>Introduction</h3> 
+                <p>We started out as a small software startup focused on quality software and customer satisfaction.<br> 
+                    Now, moving into our fourth decade, Yardi is a large software corporation with offices <br>
+                    worldwide — and a still-unwavering focus on quality software and customer satisfaction. 
+                </p>
+                <figure>
+                    <img src="/assets/images/yardi-logo-desktop.png" height="50em" width="160em"/>
+                    </figure>
+            </section>
+            <section class="Intro">
+                <h3>Our Company</h3>
+                    <p>Established in 1984, Yardi has grown dramatically over the last three decades to<br>
+                     become the leading provider of high-performance software solutions for the real estate industry.<br>
+                     Today, we employ over 4,000 dedicated professionals working in over 35 offices throughout <br>
+                     North America, Europe, Middle East, Asia, and Australia.Since its founding, Yardi has set the standard<br>
+                      for real estate software solutions with a combination of responsiveness and technical innovation. We <br>
+                      understand the unique needs of the industry’s various segments and have the technical expertise and <br>
+                      vision necessary to translate that understanding into powerful solutions that meet and exceed those needs.
+                    </p>
+            </section>
+        </article>
+                
+        <footer>
+            <h5>This page is a copywrite of Ethan Hunt Technologies Ltd.</h5>
+            <address>
+                Owner :: <strong>Ethan Hunt</strong>
+                Email :: <strong>ceo@ethanhunt.com</strong>
+            </address>
+        </footer>
+    </body>
+</html> 
